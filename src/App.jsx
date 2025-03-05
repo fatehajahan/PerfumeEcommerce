@@ -11,15 +11,17 @@ import Navbar from "./components/Home/Navbar/Navbar";
 import BroughtPage from "./mainPage/BroughtPageBlue/BroughtPage";
 import BroughtPageOrange from "./mainPage/BroughtPageOrange/BroughtPageOrange";
 import Contact from "./components/Contact/Contact";
-// import BroughtPage from "./mainPage/Home/BroughtPage1/BroughtPage";
-// import BroughtPage from "./components/Home/BroughtPage/BroughtPage";
-// import Navbar from "./components/Navbar/Navbar";
-
+import { useState } from "react";
+import AddCart from "./mainPage/AddCart/AddCart";
 
 const Layout = () => {
+  const [cartOpen, setCartOpen] = useState(false)
+  console.log("Layout is rendering, setCartOpen exists:", typeof setCartOpen);
+
   return (
     <>
-      <Navbar />
+      <Navbar setCartOpen={setCartOpen}/>
+      <AddCart cartOpen={cartOpen} setCartOpen={setCartOpen}/>
       <Outlet />
     </>
   );

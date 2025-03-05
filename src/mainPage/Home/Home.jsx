@@ -9,9 +9,9 @@ import Catagory from '../../components/Home/Catagory/Catagory'
 import Footer from '../../components/Home/Footer/Footer'
 
 const Home = () => {
+
   return (
     <>
-      <Navbar />
       <Banner />
       <NewArraival />
       <BestSellers />
