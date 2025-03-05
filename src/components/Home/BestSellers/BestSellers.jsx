@@ -22,7 +22,7 @@ const BestSellers = () => {
                         <img src={product1} alt="" />
                         <div className='pt-[15px]'>
                             <p className='text-[#9D9D9D] text-[15px]'>Exclusive</p>
-                            <p className='font-cormot text-black text-[25px] font-semibold'>Cool Blue Parfume</p>
+                            <p className='font-cormot text-black text-[25px] font-semibold'>Cool Blue Perfume</p>
                             <div className='flex gap-x-[10px]'>
                                 <FaStar />
                                 <FaStar />
@@ -41,7 +41,7 @@ const BestSellers = () => {
                         <img src={product2} alt="" />
                         <div className='pt-[15px]'>
                             <p className='text-[#9D9D9D] text-[15px]'>Exclusive</p>
-                            <p className='font-cormot text-black text-[25px] font-semibold'>Cool Blue Parfume</p>
+                            <p className='font-cormot text-black text-[25px] font-semibold'>Bright Light by Yana</p>
                             <div className='flex gap-x-[10px]'>
                                 <FaStar />
                                 <FaStar />
@@ -59,7 +59,7 @@ const BestSellers = () => {
                         <img src={product3} alt="" />
                         <div className='pt-[15px]'>
                             <p className='text-[#9D9D9D] text-[15px]'>Exclusive</p>
-                            <p className='font-cormot text-black text-[25px] font-semibold'>Cool Blue Parfume</p>
+                            <p className='font-cormot text-black text-[25px] font-semibold'>Cool Blue Perfume</p>
                             <div className='flex gap-x-[10px]'>
                                 <FaStar />
                                 <FaStar />
@@ -82,7 +82,7 @@ const BestSellers = () => {
                         <img src={product4} alt="" />
                         <div className='pt-[15px]'>
                             <p className='text-[#9D9D9D] text-[15px]'>Exclusive</p>
-                            <p className='font-cormot text-black text-[25px] font-semibold'>Cool Blue Parfume</p>
+                            <p className='font-cormot text-black text-[25px] font-semibold'>Cool Blue Perfume</p>
                             <div className='flex gap-x-[10px]'>
                                 <FaStar />
                                 <FaStar />

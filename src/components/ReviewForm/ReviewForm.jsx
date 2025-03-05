@@ -16,7 +16,7 @@ const ReviewForm = () => {
             </div>
 
             <div className="mt-4">
-                {active === "description" &&
+                {active == "description" &&
                     <div>
                         <div className="font-cormot text-[35px]">Product description</div>
                         <p className="font-cormot text-[17px] pt-[15px]">
@@ -24,7 +24,7 @@ const ReviewForm = () => {
 
                             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
                     </div>}
-                {active === "review" &&
+                {active == "review" &&
                     <div>
                         <div className="w-full mx-auto border p-6 rounded-lg shadow-md">
                             <h2 className="text-lg font-semibold mb-2">

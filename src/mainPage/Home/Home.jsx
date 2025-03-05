@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../../components/Home/Navbar/Navbar'
 import Banner from '../../components/Home/Banner/Banner'
 import NewArraival from '../../components/Home/NewArraival/NewArraival'
 import BestSellers from '../../components/Home/BestSellers/BestSellers'

@@ -13,6 +13,7 @@ import BroughtPageOrange from "./mainPage/BroughtPageOrange/BroughtPageOrange";
 import Contact from "./components/Contact/Contact";
 import { useState } from "react";
 import AddCart from "./mainPage/AddCart/AddCart";
+import ViewCart from "./mainPage/ViewCart/ViewCart";
 
 const Layout = () => {
   const [cartOpen, setCartOpen] = useState(false)
@@ -20,9 +21,15 @@ const Layout = () => {
 
   return (
     <>
-      <Navbar setCartOpen={setCartOpen}/>
-      <AddCart cartOpen={cartOpen} setCartOpen={setCartOpen}/>
+      <Navbar setCartOpen={setCartOpen} />
+      <AddCart cartOpen={cartOpen} setCartOpen={setCartOpen} />
       <Outlet />
+      {cartOpen && (
+        <div
+          className="fixed inset-0 bg-[#00000049]"
+          onClick={() => setCartOpen(false)}
+        ></div>
+      )}
     </>
   );
 };
@@ -34,6 +41,7 @@ const router = createBrowserRouter(
       <Route path="/bluePerfume" element={<BroughtPage />} />
       <Route path="/orangePerfume" element={<BroughtPageOrange />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/mycart" element={<ViewCart/>}/>
     </Route>
   )
 );
