@@ -1,6 +1,4 @@
 import React from 'react'
-// import dicovery1 from '../../assets/dicovery1.jpg'
-// import dicovery2 from '../../assets/discovery2.jpg'
 import discovery1 from '../../../assets/homepage/discovery1.jpg'
 import discovery2 from '../../../assets/homepage/discovery2.jpg'
 import discovery3 from '../../../assets/homepage/discovery3.jpg'

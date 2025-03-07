@@ -51,7 +51,7 @@ const ViewCart = () => {
                         <span>$225.00</span>
                     </div>
                     <p className="mt-4 text-sm">Have a coupon?</p>
-                    <button className="mt-4 bg-black text-white px-6 py-3 w-full text-center uppercase font-semibold">
+                    <button className="mt-4 bg-black text-white px-6 py-3 w-full text-center uppercase font-semibold cursor-pointer">
                         Checkout
                     </button>
                 </div>
